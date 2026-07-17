@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>هیدرودرمی | کلینیک تاج‌بانو</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo"><i class="fa-solid fa-spa"></i> تاج<span>بانو</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#home">خانه</a>
+      <a href="../services.html">خدمات</a>
+      <a href="../index.html#about">درباره ما</a>
+      <a href="../index.html#doctors">متخصصان</a>
+      <a href="../index.html#contact">تماس با ما</a>
+    </nav>
+    <div class="nav-cta">
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="منو"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="service-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">خانه</a> / <a href="../services.html">خدمات</a> / <span>هیدرودرمی</span></div>
+    <div class="service-hero-inner">
+      <div>
+        <span class="eyebrow">لایه‌برداری پیشرفته</span>
+        <h1 style="font-size:2.3rem;font-weight:800;color:var(--clr-dark);margin:14px 0 18px;">هیدرودرمی</h1>
+        <p style="color:var(--clr-text-light);font-size:1.05rem;">هیدرودرمی روشی پیشرفته برای لایه‌برداری عمیق و ملایم پوست است که سلول‌های مرده را حذف کرده و پوستی صاف، یکدست و شاداب باقی می‌گذارد.</p>
+        <div class="info-strip">
+          <div><b>۳۰ دقیقه</b><span>مدت زمان جلسه</span></div>
+          <div><b>۹۰۰,۰۰۰ تومان</b><span>هزینه از</span></div>
+          <div><b>کارشناس پوست</b><span>متخصص</span></div>
+        </div>
+        <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+      </div>
+      <div class="service-hero-img">
+        <img src="../image/hydro.jpg" alt="هیدرودرمی" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px;">
+  <div class="container">
+    <div class="section-head" style="text-align:right;margin:0 0 30px;max-width:100%;">
+      <h2 style="font-size:1.6rem;">درباره هیدرودرمی</h2>
+    </div>
+    <p style="color:var(--clr-text-light);max-width:800px;margin-bottom:30px;">دستگاه هیدرودرم با ترکیب آب و فشار کنترل‌شده، لایه‌برداری عمیق پوست را بدون ایجاد قرمزی یا تحریک انجام می‌دهد. این روش برای رفع کدری، لکه‌های سطحی و بافت ناهموار پوست بسیار موثر است.</p>
+
+    <div class="section-head" style="text-align:right;margin:0 0 20px;max-width:100%;">
+      <h2 style="font-size:1.6rem;">مزایای این روش</h2>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>رفع کدری و لکه‌های سطحی</span></div>
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>یکدست‌سازی رنگ و بافت پوست</span></div>
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>بدون قرمزی یا تحریک پوست</span></div>
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>نتیجه‌ای فوری و قابل مشاهده</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;padding-top:40px;">
+  <div class="container">
+    <div class="section-head" style="text-align:right;margin:0 0 24px;max-width:100%;">
+      <h2 style="font-size:1.6rem;">سوالات متداول</h2>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">آیا هیدرودرمی برای پوست حساس مناسب است؟ <i class="fa-solid fa-chevron-down"></i></div>
+      <div class="faq-a"><p>بله، به دلیل ملایم بودن روش، برای اغلب انواع پوست از جمله پوست حساس قابل انجام است.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">هر چند وقت یک‌بار باید انجام شود؟ <i class="fa-solid fa-chevron-down"></i></div>
+      <div class="faq-a"><p>برای حفظ نتیجه، هر ۴ تا ۶ هفته یک‌بار توصیه می‌شود.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">آیا بعد از جلسه محدودیتی وجود دارد؟ <i class="fa-solid fa-chevron-down"></i></div>
+      <div class="faq-a"><p>توصیه می‌شود تا ۲۴ ساعت از قرار گرفتن مستقیم در معرض آفتاب شدید خودداری کنید.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="booking-section">
+      <h2>آماده رزرو نوبت هیدرودرمی هستید؟</h2>
+      <p>همین حالا با ما در ارتباط باشید تا زمان مناسب برای شما رزرو شود.</p>
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">© ۲۰۲۶ کلینیک تاج‌بانو — تمامی حقوق محفوظ است.</div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+    <h3>رزرو نوبت</h3>
+    <p>روش ارتباطی مورد نظر خود را انتخاب کنید</p>
+    <div class="modal-options">
+      <a href="https://instagram.com/fatemeh_mahdavi.skin" target="_blank" class="modal-option opt-instagram"><i class="fa-brands fa-instagram"></i><span>اینستاگرام</span></a>
+      <a href="https://t.me/tajbanu_clinic" target="_blank" class="modal-option opt-telegram"><i class="fa-brands fa-telegram"></i><span>تلگرام</span></a>
+      <a href="https://wa.me/989013272415" target="_blank" class="modal-option opt-whatsapp"><i class="fa-brands fa-whatsapp"></i><span>واتساپ</span></a>
+      <a href="https://rubika.ir/facial_fmskin" target="_blank" class="modal-option opt-rubika"><i class="fa-solid fa-comment-dots"></i><span>روبیکا</span></a>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal(){ document.getElementById('bookingModal').classList.add('active'); }
+function closeModal(){ document.getElementById('bookingModal').classList.remove('active'); }
+document.getElementById('bookingModal').addEventListener('click', function(e){ if(e.target === this) closeModal(); });
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const navLinks = document.getElementById('navLinks');
+hamburgerBtn.addEventListener('click', function(){ navLinks.classList.toggle('mobile-open'); });
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('mobile-open')));
+document.querySelectorAll('.faq-item').forEach(item=>{
+  item.querySelector('.faq-q').addEventListener('click', ()=> item.classList.toggle('open'));
+});
+</script>
+</body>
+</html>

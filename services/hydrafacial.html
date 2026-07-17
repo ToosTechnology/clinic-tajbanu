@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>هیدروفیشیال | کلینیک تاج‌بانو</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo"><i class="fa-solid fa-spa"></i> تاج<span>بانو</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#home">خانه</a>
+      <a href="../services.html">خدمات</a>
+      <a href="../index.html#about">درباره ما</a>
+      <a href="../index.html#doctors">متخصصان</a>
+      <a href="../index.html#contact">تماس با ما</a>
+    </nav>
+    <div class="nav-cta">
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="منو"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="service-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">خانه</a> / <a href="../services.html">خدمات</a> / <span>هیدروفیشیال</span></div>
+    <div class="service-hero-inner">
+      <div>
+        <span class="eyebrow">پاکسازی و آبرسانی عمیق</span>
+        <h1 style="font-size:2.3rem;font-weight:800;color:var(--clr-dark);margin:14px 0 18px;">هیدروفیشیال</h1>
+        <p style="color:var(--clr-text-light);font-size:1.05rem;">هیدروفیشیال ترکیبی از پاکسازی، لایه‌برداری، استخراج ناخالصی و آبرسانی عمیق پوست است که در یک جلسه یکپارچه و بدون درد انجام می‌شود.</p>
+        <div class="info-strip">
+          <div><b>۴۵ دقیقه</b><span>مدت زمان جلسه</span></div>
+          <div><b>۱,۲۰۰,۰۰۰ تومان</b><span>هزینه از</span></div>
+          <div><b>متخصص پوست</b><span>متخصص</span></div>
+        </div>
+        <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+      </div>
+      <div class="service-hero-img">
+        <img src="../image/hydrofacial.jpg" alt="هیدروفیشیال" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px;">
+  <div class="container">
+    <div class="section-head" style="text-align:right;margin:0 0 30px;max-width:100%;">
+      <h2 style="font-size:1.6rem;">درباره هیدروفیشیال</h2>
+    </div>
+    <p style="color:var(--clr-text-light);max-width:800px;margin-bottom:30px;">دستگاه هیدروفیشیال با فناوری وکیوم و سرم‌های اختصاصی، منافذ پوست را پاکسازی کرده و در همان لحظه رطوبت و مواد مغذی لازم را به پوست بازمی‌گرداند. نتیجه، پوستی شفاف، صاف و پرآب بلافاصله پس از جلسه است.</p>
+
+    <div class="section-head" style="text-align:right;margin:0 0 20px;max-width:100%;">
+      <h2 style="font-size:1.6rem;">مزایای این روش</h2>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>پاکسازی عمیق منافذ پوست</span></div>
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>آبرسانی فوری و پایدار</span></div>
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>کاهش چربی و براقی پوست</span></div>
+      <div class="benefit-item"><i class="fa-solid fa-check"></i><span>مناسب پیش از مراسم و مناسبت‌ها</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;padding-top:40px;">
+  <div class="container">
+    <div class="section-head" style="text-align:right;margin:0 0 24px;max-width:100%;">
+      <h2 style="font-size:1.6rem;">سوالات متداول</h2>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">نتیجه هیدروفیشیال چقدر طول می‌کشد؟ <i class="fa-solid fa-chevron-down"></i></div>
+      <div class="faq-a"><p>بسته به نوع پوست، معمولا اثرات آن بین ۲ تا ۴ هفته باقی می‌ماند.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">آیا برای پوست چرب مناسب است؟ <i class="fa-solid fa-chevron-down"></i></div>
+      <div class="faq-a"><p>بله، هیدروفیشیال برای انواع پوست از جمله پوست چرب و مستعد آکنه قابل تنظیم است.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">آیا نیاز به آماده‌سازی خاصی قبل از جلسه هست؟ <i class="fa-solid fa-chevron-down"></i></div>
+      <div class="faq-a"><p>معمولا نیازی نیست، اما توصیه می‌شود از آرایش سنگین قبل از جلسه خودداری کنید.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="booking-section">
+      <h2>آماده رزرو نوبت هیدروفیشیال هستید؟</h2>
+      <p>همین حالا با ما در ارتباط باشید تا زمان مناسب برای شما رزرو شود.</p>
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">© ۲۰۲۶ کلینیک تاج‌بانو — تمامی حقوق محفوظ است.</div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+    <h3>رزرو نوبت</h3>
+    <p>روش ارتباطی مورد نظر خود را انتخاب کنید</p>
+    <div class="modal-options">
+      <a href="https://instagram.com/fatemeh_mahdavi.skin" target="_blank" class="modal-option opt-instagram"><i class="fa-brands fa-instagram"></i><span>اینستاگرام</span></a>
+      <a href="https://t.me/tajbanu_clinic" target="_blank" class="modal-option opt-telegram"><i class="fa-brands fa-telegram"></i><span>تلگرام</span></a>
+      <a href="https://wa.me/989013272415" target="_blank" class="modal-option opt-whatsapp"><i class="fa-brands fa-whatsapp"></i><span>واتساپ</span></a>
+      <a href="https://rubika.ir/facial_fmskin" target="_blank" class="modal-option opt-rubika"><i class="fa-solid fa-comment-dots"></i><span>روبیکا</span></a>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal(){ document.getElementById('bookingModal').classList.add('active'); }
+function closeModal(){ document.getElementById('bookingModal').classList.remove('active'); }
+document.getElementById('bookingModal').addEventListener('click', function(e){ if(e.target === this) closeModal(); });
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const navLinks = document.getElementById('navLinks');
+hamburgerBtn.addEventListener('click', function(){ navLinks.classList.toggle('mobile-open'); });
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('mobile-open')));
+document.querySelectorAll('.faq-item').forEach(item=>{
+  item.querySelector('.faq-q').addEventListener('click', ()=> item.classList.toggle('open'));
+});
+</script>
+</body>
+</html>
