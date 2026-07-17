@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>خدمات کلینیک تاج‌بانو</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><i class="fa-solid fa-spa"></i> تاج<span>بانو</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#home">خانه</a>
+      <a href="services.html">خدمات</a>
+      <a href="index.html#about">درباره ما</a>
+      <a href="index.html#doctors">متخصصان</a>
+      <a href="index.html#contact">تماس با ما</a>
+    </nav>
+    <div class="nav-cta">
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="منو"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">خانه</a> / <span>خدمات</span></div>
+    <h1>خدمات کلینیک تاج‌بانو</h1>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head" style="max-width:720px;">
+      <p>هر یک از خدمات زیر با مشاوره تخصصی پیش از شروع، و متناسب با نوع و نیاز پوست شما ارائه می‌شود. برای اطلاعات کامل روی هر خدمت کلیک کنید.</p>
+    </div>
+
+    <!-- 1 -->
+    <div class="service-full">
+      <div class="service-full-top">
+        <div class="service-full-img"><img src="image/omegalight.jpg" alt="امگالایت" onerror="this.style.display='none'"></div>
+        <div>
+          <h3>امگالایت (ال ای دی تراپی)</h3>
+          <div class="service-tags"><span>بدون درد</span><span>بدون نقاهت</span><span>نور درمانی</span></div>
+          <p style="color:var(--clr-text-light);margin-bottom:16px;">امگالایت با استفاده از طول موج‌های نوری اختصاصی، فرآیند بازسازی و ترمیم پوست را تحریک کرده و به کاهش التهاب، جوش و قرمزی پوست کمک می‌کند.</p>
+          <ul class="service-full-list">
+            <li><i class="fa-solid fa-check"></i> جوان‌سازی پوست</li>
+            <li><i class="fa-solid fa-check"></i> کاهش التهاب و جوش</li>
+            <li><i class="fa-solid fa-check"></i> بدون دوره نقاهت</li>
+            <li><i class="fa-solid fa-check"></i> مناسب همه انواع پوست</li>
+          </ul>
+          <div style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;">
+            <span class="price-tag">قیمت: از ۸۰۰,۰۰۰ تومان</span>
+            <a href="services/omgalight.html" class="btn btn-outline">جزئیات کامل</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="service-full">
+      <div class="service-full-top">
+        <div class="service-full-img"><img src="image/hydrofacial.jpg" alt="هیدروفیشیال" onerror="this.style.display='none'"></div>
+        <div>
+          <h3>هیدروفیشیال</h3>
+          <div class="service-tags"><span>پاکسازی عمیق</span><span>آبرسانی</span><span>لایه‌برداری</span></div>
+          <p style="color:var(--clr-text-light);margin-bottom:16px;">هیدروفیشیال ترکیبی از پاکسازی، لایه‌برداری، استخراج ناخالصی و آبرسانی عمیق پوست است که در یک جلسه یکپارچه انجام می‌شود.</p>
+          <ul class="service-full-list">
+            <li><i class="fa-solid fa-check"></i> پاکسازی عمیق منافذ</li>
+            <li><i class="fa-solid fa-check"></i> آبرسانی فوری</li>
+            <li><i class="fa-solid fa-check"></i> افزایش شفافیت پوست</li>
+            <li><i class="fa-solid fa-check"></i> مناسب پیش از مناسبت‌ها</li>
+          </ul>
+          <div style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;">
+            <span class="price-tag">قیمت: از ۱,۲۰۰,۰۰۰ تومان</span>
+            <a href="services/hydrafacial.html" class="btn btn-outline">جزئیات کامل</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="service-full">
+      <div class="service-full-top">
+        <div class="service-full-img"><img src="image/mezo.jpg" alt="مزونیدلینگ" onerror="this.style.display='none'"></div>
+        <div>
+          <h3>مزونیدلینگ</h3>
+          <div class="service-tags"><span>کلاژن‌سازی</span><span>ضدپیری</span><span>سفت‌کننده</span></div>
+          <p style="color:var(--clr-text-light);margin-bottom:16px;">ترکیب میکرونیدلینگ و مزوتراپی، ضمن تحریک تولید کلاژن طبیعی پوست، مواد موثره را به عمق پوست می‌رساند.</p>
+          <ul class="service-full-list">
+            <li><i class="fa-solid fa-check"></i> کاهش چین و چروک</li>
+            <li><i class="fa-solid fa-check"></i> بهبود بافت پوست</li>
+            <li><i class="fa-solid fa-check"></i> کاهش جای جوش</li>
+            <li><i class="fa-solid fa-check"></i> افزایش تولید کلاژن</li>
+          </ul>
+          <div style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;">
+            <span class="price-tag">قیمت: از ۱,۵۰۰,۰۰۰ تومان</span>
+            <a href="services/mesoneedling.html" class="btn btn-outline">جزئیات کامل</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="service-full">
+      <div class="service-full-top">
+        <div class="service-full-img"><img src="image/hydro.jpg" alt="هیدرودرمی" onerror="this.style.display='none'"></div>
+        <div>
+          <h3>هیدرودرمی</h3>
+          <div class="service-tags"><span>لایه‌برداری</span><span>یکدست‌کننده</span><span>بدون درد</span></div>
+          <p style="color:var(--clr-text-light);margin-bottom:16px;">لایه‌برداری عمیق و ملایم پوست با دستگاه هیدرودرم، سلول‌های مرده را حذف کرده و پوستی صاف و شاداب باقی می‌گذارد.</p>
+          <ul class="service-full-list">
+            <li><i class="fa-solid fa-check"></i> رفع لکه و کدری پوست</li>
+            <li><i class="fa-solid fa-check"></i> یکدست‌سازی رنگ پوست</li>
+            <li><i class="fa-solid fa-check"></i> بدون قرمزی و تحریک</li>
+            <li><i class="fa-solid fa-check"></i> نتیجه فوری</li>
+          </ul>
+          <div style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;">
+            <span class="price-tag">قیمت: از ۹۰۰,۰۰۰ تومان</span>
+            <a href="services/hydrodermy.html" class="btn btn-outline">جزئیات کامل</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="service-full">
+      <div class="service-full-top">
+        <div class="service-full-img"><img src="image/pelazhen.jpg" alt="پلاژن تراپی" onerror="this.style.display='none'"></div>
+        <div>
+          <h3>پلاژن تراپی</h3>
+          <div class="service-tags"><span>الاستیسیته</span><span>شادابی</span><span>ضدشلی پوست</span></div>
+          <p style="color:var(--clr-text-light);margin-bottom:16px;">پلاژن تراپی با تحریک هدفمند تولید کلاژن طبیعی پوست، به بازگشت شادابی و افزایش الاستیسیته پوست کمک می‌کند.</p>
+          <ul class="service-full-list">
+            <li><i class="fa-solid fa-check"></i> افزایش سفتی پوست</li>
+            <li><i class="fa-solid fa-check"></i> بهبود درخشندگی</li>
+            <li><i class="fa-solid fa-check"></i> تاخیر در علائم پیری</li>
+            <li><i class="fa-solid fa-check"></i> مناسب همه سنین بالای ۲۵</li>
+          </ul>
+          <div style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;">
+            <span class="price-tag">قیمت: از ۱,۱۰۰,۰۰۰ تومان</span>
+            <a href="services/plagen.html" class="btn btn-outline">جزئیات کامل</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="booking-section">
+      <h2>نمی‌دانید کدام خدمت مناسب پوست شماست؟</h2>
+      <p>در یک مشاوره رایگان، متخصصان ما بهترین برنامه مراقبتی را متناسب با نوع پوست شما پیشنهاد می‌دهند.</p>
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-comment-dots"></i> درخواست مشاوره رایگان</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">© ۲۰۲۶ کلینیک تاج‌بانو — تمامی حقوق محفوظ است.</div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+    <h3>رزرو نوبت</h3>
+    <p>روش ارتباطی مورد نظر خود را انتخاب کنید</p>
+    <div class="modal-options">
+      <a href="https://instagram.com/fatemeh_mahdavi.skin" target="_blank" class="modal-option opt-instagram"><i class="fa-brands fa-instagram"></i><span>اینستاگرام</span></a>
+      <a href="https://t.me/tajbanu_clinic" target="_blank" class="modal-option opt-telegram"><i class="fa-brands fa-telegram"></i><span>تلگرام</span></a>
+      <a href="https://wa.me/989013272415" target="_blank" class="modal-option opt-whatsapp"><i class="fa-brands fa-whatsapp"></i><span>واتساپ</span></a>
+      <a href="https://rubika.ir/facial_fmskin" target="_blank" class="modal-option opt-rubika"><i class="fa-solid fa-comment-dots"></i><span>روبیکا</span></a>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal(){ document.getElementById('bookingModal').classList.add('active'); }
+function closeModal(){ document.getElementById('bookingModal').classList.remove('active'); }
+document.getElementById('bookingModal').addEventListener('click', function(e){ if(e.target === this) closeModal(); });
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const navLinks = document.getElementById('navLinks');
+hamburgerBtn.addEventListener('click', function(){ navLinks.classList.toggle('mobile-open'); });
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('mobile-open')));
+</script>
+</body>
+</html>

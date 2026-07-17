@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کلینیک تاج‌بانو | مراقبت پوست و فیشیال تخصصی</title>
+<meta name="description" content="کلینیک تخصصی پوست و فیشیال تاج‌بانو - هیدرافیشیال، مزونیدلینگ، امگالایت و خدمات زیبایی پوست">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><i class="fa-solid fa-spa"></i> تاج<span>بانو</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#home">خانه</a>
+      <a href="index.html#services">خدمات</a>
+      <a href="index.html#about">درباره ما</a>
+      <a href="index.html#doctors">متخصصان</a>
+      <a href="index.html#contact">تماس با ما</a>
+    </nav>
+    <div class="nav-cta">
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="منو">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="eyebrow">کلینیک تخصصی پوست و زیبایی</span>
+      <h1>پوستی درخشان با <em>تاج‌بانو</em> شروع می‌شود</h1>
+      <p>ترکیبی از دانش پزشکی و جدیدترین دستگاه‌های روز دنیا، برای مراقبتی که واقعاً روی پوست شما اثر می‌گذارد.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت رایگان</button>
+        <a href="services.html" class="btn btn-outline"><i class="fa-solid fa-list"></i> مشاهده خدمات</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="image/backgr.webp" alt="کلینیک تاج‌بانو" onerror="this.style.display='none'">
+      <div class="hero-stat">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <div><b>خدمات تخصصی پوست</b><span>مشاوره اختصاصی پیش از هر جلسه</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">خدمات ما</span>
+      <h2>مراقبت‌های تخصصی پوست و فیشیال</h2>
+      <p>هر خدمت با مشاوره اولیه و برنامه‌ریزی اختصاصی متناسب با نوع پوست شما ارائه می‌شود.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-lightbulb"></i></div>
+        <h3>امگالایت (ال ای دی تراپی)</h3>
+        <p>نور درمانی برای بازسازی و جوان‌سازی پوست بدون تهاجم و بدون دوره نقاهت.</p>
+        <a href="services/omgalight.html" class="service-link">جزئیات بیشتر <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-droplet"></i></div>
+        <h3>هیدروفیشیال</h3>
+        <p>پاکسازی عمیق، لایه‌برداری و آبرسانی پوست در یک جلسه یکپارچه.</p>
+        <a href="services/hydrafacial.html" class="service-link">جزئیات بیشتر <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-syringe"></i></div>
+        <h3>مزونیدلینگ</h3>
+        <p>تحریک کلاژن‌سازی طبیعی پوست با ترکیب میکرونیدلینگ و مزوتراپی.</p>
+        <a href="services/mesoneedling.html" class="service-link">جزئیات بیشتر <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-wind"></i></div>
+        <h3>هیدرودرمی</h3>
+        <p>لایه‌برداری ملایم و عمیق پوست با دستگاه پیشرفته هیدرودرم برای پوستی صاف و یکدست.</p>
+        <a href="services/hydrodermy.html" class="service-link">جزئیات بیشتر <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+        <h3>پلاژن تراپی</h3>
+        <p>افزایش الاستیسیته و شادابی پوست با تحریک تولید کلاژن طبیعی.</p>
+        <a href="services/plagen.html" class="service-link">جزئیات بیشتر <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+        <h3>مشاوره تخصصی پوست</h3>
+        <p>تشخیص نوع پوست و طراحی برنامه مراقبتی اختصاصی پیش از هر دوره درمانی.</p>
+        <a href="services.html" class="service-link">جزئیات بیشتر <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about" style="background:#fff;">
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-img">
+        <img src="image/backgr2.webp" alt="درباره کلینیک تاج‌بانو" onerror="this.style.display='none'">
+      </div>
+      <div class="about-content">
+        <span class="eyebrow">درباره ما</span>
+        <h2 style="font-size:2.1rem;font-weight:800;color:var(--clr-dark);margin-bottom:16px;">تجربه‌ای متفاوت از مراقبت پوست</h2>
+        <p style="color:var(--clr-text-light);">کلینیک تاج‌بانو با هدف ارائه خدمات تخصصی و اصولی مراقبت پوست تاسیس شده است. تمرکز ما بر شناخت دقیق نیاز هر پوست و استفاده از روش‌های علمی و به‌روز است.</p>
+        <div class="about-features">
+          <div class="feature-item">
+            <i class="fa-solid fa-user-doctor"></i>
+            <div><b>متخصص مجرب</b><span>تشخیص و درمان اصولی</span></div>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-shield-heart"></i>
+            <div><b>ایمنی کامل</b><span>دستگاه‌های استاندارد و بهداشتی</span></div>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-face-smile"></i>
+            <div><b>رضایت مشتری</b><span>مراقبت متناسب با هر پوست</span></div>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-clock"></i>
+            <div><b>نوبت‌دهی آسان</b><span>هماهنگی سریع از طریق پیام‌رسان‌ها</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTORS -->
+<section class="section" id="doctors">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">تیم ما</span>
+      <h2>متخصصان کلینیک تاج‌بانو</h2>
+      <p>مراقبت پوست شما در دستان متخصصانی با تجربه و دقت بالا.</p>
+    </div>
+    <div class="doctors-grid">
+      <div class="doctor-card">
+        <div class="doctor-photo">
+          <img src="image/photo.jpg" alt="متخصص کلینیک تاج‌بانو" onerror="this.parentElement.innerHTML='<i class=\'fa-solid fa-user-doctor\'></i>'">
+        </div>
+        <div class="doctor-info">
+          <h4>فاطمه مهدوی</h4>
+          <span>مدیر کلینیک تاج‌بانو</span>
+        </div>
+      </div>
+      <div class="doctor-card">
+        <div class="doctor-photo doctor-empty">
+          <i class="fa-solid fa-user-plus"></i>
+          <span>به‌زودی</span>
+        </div>
+        <div class="doctor-info">
+          <h4>در حال جذب همکار</h4>
+          <span>کارشناس فیشیال</span>
+        </div>
+      </div>
+      <div class="doctor-card">
+        <div class="doctor-photo doctor-empty">
+          <i class="fa-solid fa-user-plus"></i>
+          <span>به‌زودی</span>
+        </div>
+        <div class="doctor-info">
+          <h4>در حال جذب همکار</h4>
+          <span>کارشناس لیزر و پوست</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="testimonials" style="background:#fff;">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">نظرات مشتریان</span>
+      <h2>تجربه شما برای ما مهم است</h2>
+    </div>
+    <div class="testimonials-empty">
+      <i class="fa-regular fa-comment-dots"></i>
+      <h3>منتظر نظرات شما هستیم!</h3>
+      <p>هنوز نظری ثبت نشده. اولین نفری باشید که تجربه‌اش را از کلینیک تاج‌بانو با ما به اشتراک می‌گذارد.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="section">
+  <div class="container">
+    <div class="booking-section">
+      <h2>آماده شروع مراقبت پوست خود هستید؟</h2>
+      <p>همین حالا نوبت خود را رزرو کنید و اولین قدم را برای پوستی سالم‌تر و شاداب‌تر بردارید.</p>
+      <button class="btn btn-primary" onclick="openModal()"><i class="fa-regular fa-calendar-check"></i> رزرو نوبت</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">تماس با ما</span>
+      <h2>در ارتباط باشید</h2>
+    </div>
+    <div class="contact-inner">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div><b>آدرس کلینیک</b><span>اصفهان، شاهین شهر، دکتر حسابی، فرعی ۲، ​ساختمان الماس، طبقه۲،واحد۶ سالن زیبایی تاج بانو</span></div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div><b>تماس تلفنی</b><span dir="ltr">۰۹۰۱-۳۲۷-۲۴۱۵</span></div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-clock"></i>
+          <div><b>ساعات کاری</b><span>شنبه تا پنج‌شنبه، ۱۰ صبح تا ۸ شب</span></div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div><b>ایمیل</b><span dir="ltr"></span></div>
+        </div>
+      </div>
+      <div class="map-frame">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6702.632200847452!2d51.551034!3d32.863355!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDUxJzQ4LjEiTiA1McKwMzMnMDMuNyJF!5e0!3m2!1sfa!2s!4v1784300083132!5m2!1sfa!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><i class="fa-solid fa-spa"></i> تاج<span style="color:var(--clr-primary-light);">بانو</span></a>
+        <p>کلینیک تخصصی مراقبت پوست و فیشیال، همراه شما در مسیر پوستی سالم و درخشان.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="اینستاگرام"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="تلگرام"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#" aria-label="واتساپ"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div>
+        <h5>دسترسی سریع</h5>
+        <ul>
+          <li><a href="index.html#home">خانه</a></li>
+          <li><a href="index.html#about">درباره ما</a></li>
+          <li><a href="services.html">خدمات</a></li>
+          <li><a href="index.html#contact">تماس با ما</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>خدمات</h5>
+        <ul>
+          <li><a href="services/omgalight.html">امگالایت</a></li>
+          <li><a href="services/hydrafacial.html">هیدروفیشیال</a></li>
+          <li><a href="services/mesoneedling.html">مزونیدلینگ</a></li>
+          <li><a href="services/hydrodermy.html">هیدرودرمی</a></li>
+          <li><a href="services/plagen.html">پلاژن تراپی</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>خبرنامه</h5>
+        <p style="font-size:.88rem;margin-bottom:14px;">برای اطلاع از تخفیف‌ها و خدمات جدید عضو شوید.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('با تشکر! ایمیل شما ثبت شد.');">
+          <input type="email" placeholder="ایمیل شما" required>
+          <button type="submit" aria-label="ارسال"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">© ۲۰۲۶ کلینیک تاج‌بانو — تمامی حقوق محفوظ است.</div>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+    <h3>رزرو نوبت</h3>
+    <p>روش ارتباطی مورد نظر خود را انتخاب کنید</p>
+    <div class="modal-options">
+      <a href="https://instagram.com/fatemeh_mahdavi.skin" target="_blank" class="modal-option opt-instagram"><i class="fa-brands fa-instagram"></i><span>اینستاگرام</span></a>
+      <a href="https://t.me/tajbanu_clinic" target="_blank" class="modal-option opt-telegram"><i class="fa-brands fa-telegram"></i><span>تلگرام</span></a>
+      <a href="https://wa.me/989013272415" target="_blank" class="modal-option opt-whatsapp"><i class="fa-brands fa-whatsapp"></i><span>واتساپ</span></a>
+      <a href="https://rubika.ir/facial_fmskin" target="_blank" class="modal-option opt-rubika"><i class="fa-solid fa-comment-dots"></i><span>روبیکا</span></a>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal(){ document.getElementById('bookingModal').classList.add('active'); }
+function closeModal(){ document.getElementById('bookingModal').classList.remove('active'); }
+document.getElementById('bookingModal').addEventListener('click', function(e){
+  if(e.target === this) closeModal();
+});
+
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const navLinks = document.getElementById('navLinks');
+hamburgerBtn.addEventListener('click', function(){
+  navLinks.classList.toggle('mobile-open');
+});
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('mobile-open')));
+</script>
+</body>
+</html>
